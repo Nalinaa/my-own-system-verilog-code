@@ -44,7 +44,7 @@ module sumArr;
       $display("Max value in array is %d" ,maxArrVal);
     end
   
-  function bit [31:0] sumArr(bit [7:0] data);
+  function bit [31:0] sumArr(bit [7:0] data);//Passed individual vector field not an array
       static int sumTotal;
       sumTotal += data;
       return sumTotal;
