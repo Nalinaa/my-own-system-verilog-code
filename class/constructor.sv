@@ -1,12 +1,4 @@
-/*Create a class Packet with the following properties:
-
-bit [7:0] addr
-
-bit [7:0] data
-
-Write a method to display the packet details.
-
-Create 2 objects and assign different values.*/
+/*Add a constructor to the Packet class above to initialize addr and data during object creation.*/
 
 class packet;
   bit [7:0] addr;
